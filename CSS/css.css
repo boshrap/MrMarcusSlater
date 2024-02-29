@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../FON/Quicksand-VariableFont_wght.ttf') format('truetype');
+    font-stretch: semi-expanded ; /* Note that font-stretch is a % of normal width */
+    font-style: normal; /* See note below */
+    font-weight: 80 1000; 
+    font-display: swap;
+    font-variation-settings: "wght" 450 ;
+}
+
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('../FON/JosefinSans-VariableFont_wght.ttf') format('truetype');
+    font-stretch: normal; /* Note that font-stretch is a % of normal width */
+    font-style: normal; /* See note below */
+    font-weight: 80 1000; 
+    font-display: swap;
+    font-variation-settings: "wght" 700 ;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('../FON/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-stretch: normal; /* Note that font-stretch is a % of normal width */
+    font-style: normal; /* See note below */
+    font-weight: 80 1000; 
+    font-display: swap;
+    font-variation-settings: "wght" 300;    
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../FON/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-stretch: normal; /* Note that font-stretch is a % of normal width */
+    font-style: normal; /* See note below */
+    font-weight: 80 1000; 
+    font-display: swap;
+    font-variation-settings: "wght" 350;    
+}
+
+
+@font-face {
+    font-family: 'Sen';
+    src: url('../FON/Sen-Regular.ttf') format('truetype');
+    font-stretch: normal; /* Note that font-stretch is a % of normal width */
+    font-style: normal; 
+    font-weight: normal;
+}
+
+ 
+@font-face {   
+    font-family: 'Sen-Bold';
+    src: url('../FON/Sen-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;    
+}
+
+@font-face {   
+    font-family: 'Sen-Bolder';
+    src: url('../FON/Sen-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-display: swap;    
+}
+
+
+h1, h2 {
+    font-family: 'JosefinSans', 'sans serif'; 
+}
+
+h3, h4, h5 {
+    font-family: 'Sen', 'sans serif'; 
+}
+
+ul, li, p {
+    font-family: 'Outfit', 'sans serif';
+}
+ 
+.accordion-body > p, ul, li {
+    font-size:1.1rem;
+}
+
+html {
+    height:100%
+}
+
+body { 
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(220deg, #c9e4df 0%, #6a95c7 100%);
+    position: absolute;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+button.accordion-button{
+    font-size: 1.2rem;
+}
+
+#index {
+
+    background-blend-mode: normal;
+   
+}
+  
+.artboard {
+    height:fit-content;
+    border-radius: 50px;
+    background: rgba(255,255,255,0.87);
+    background-blend-mode: normal;
+    box-shadow: -9px 15px 10px 1px rgba(65,4,4,0.33);
+}
+
+#pic{
+    width:66%;
+    border-radius: 100%;
+}
+ 
+#whoH2 {
+    color: #d3d3d3; 
+     font-style: italic;
+    font-weight: 400;
+}
+ 
+.portfolioBan{
+    background: linear-gradient(-135deg, #a32104, #3f0654);
+    transform: skewY(2deg);
+    mix-blend-mode: overlay;
+}
+
+#h5Ban{
+    transform: skewY(-2deg);
+}
+ 
+.a-works {
+text-decoration: none;
+color:black;
+border-color: transparent;
+border-radius:30px;
+background: transparent;
+transition: all .6s ease-out;
+}
+ 
+.a-works:hover {
+box-shadow: 
+    inset 1px -10px 10px 1px rgba(77, 184, 180, 0.368),
+    -3px 6px 10px 0px rgba(41, 84, 137, 0.26);
+color: #29396d;
+border-color: rgb(0, 255, 229);
+}
+
+
+#accordionExample {
+    --bs-accordion-bg: transparent;
+    --bs-accordion-border-color: transparent;
+}
+
+button .accordion-button {
+ font-size:1.8rem;
+ background-color: var(--bs-accordion-bg)
+}
