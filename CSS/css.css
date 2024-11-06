@@ -114,6 +114,7 @@ button.accordion-button{
 
 #pic{
     
+ 
     max-width: 607px;
     max-height: 400px;
     border-radius: 100%;
@@ -137,10 +138,20 @@ button.accordion-button{
     transform: skewY(-2deg);
 }
 
+.unskewinv{
+    transform: skewY(2deg);
+}
+
 #h5Ban{
     transform: skewY(-2deg);
 }
+
+#footer {
+    background: linear-gradient(135deg, #a32104, #3f0654);
+    transform: skewY(-2deg);
  
+}
+
 .unstyle{
     text-decoration: none;
     color:black;
@@ -220,8 +231,6 @@ button .accordion-button {
     height: 100%;
     z-index: 2;
 }
-
-
 
 @keyframes scroll {
     0% {
