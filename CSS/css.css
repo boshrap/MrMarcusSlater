@@ -152,10 +152,17 @@ button.accordion-button{
  
 }
 
-.unstyle{
-    text-decoration: none;
-    color:black;
-    border-color: transparent;    
+#mainMenu{
+    list-style-type: none;
+}
+
+#mainMenu > li > a {
+    color:black; 
+    transition: all .6s ease-out;
+}
+
+#mainMenu > li > a:hover {
+    color:red; 
 }
 
 .a-works {
