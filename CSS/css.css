@@ -139,7 +139,7 @@ button.accordion-button{
 }
 
 .unskewinv{
-    transform: skewY(2deg);
+    transform: skewY(1.2deg);
 }
 
 #h5Ban{
@@ -148,7 +148,7 @@ button.accordion-button{
 
 #footer {
     background: linear-gradient(135deg, #a32104, #3f0654);
-    transform: skewY(-2deg);
+    transform: skewY(-1.2deg);
  
 }
 
