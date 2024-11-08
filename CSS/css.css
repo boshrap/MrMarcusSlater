@@ -103,7 +103,7 @@ button.accordion-button{
 }
   
 .artboard {
-    height:fit-content;
+    height: fit-content;
     border-radius: 50px;
     background: rgba(255,255,255,0.87);
     background-blend-mode: normal;
@@ -115,10 +115,11 @@ button.accordion-button{
 #pic{
     
  
-    max-width: 607px;
-    max-height: 400px;
+    max-width: 95%;
+    max-height: 95%;
     border-radius: 100%;
- 
+    
+  
 }
  
 #whoH2 {
