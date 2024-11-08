@@ -113,10 +113,10 @@ button.accordion-button{
 }
 
 #pic{
+    width: 95%;
+    max-width: 413px;
+    max-height: 433px;
     
- 
-    max-width: 95%;
-    max-height: 95%;
     border-radius: 100%;
     
   
